@@ -1,18 +1,18 @@
 {
-  "name": "@googlemaps/jest-mocks",
+  "name": "@littlejon/jest-mocks",
   "version": "2.7.5",
   "keywords": [
     "google",
     "maps",
     "jest"
   ],
-  "homepage": "https://github.com/googlemaps/js-jest-mocks",
+  "homepage": "https://github.com/littlejon/js-jest-mocks",
   "bugs": {
-    "url": "https://github.com/googlemaps/js-jest-mocks/issues"
+    "url": "https://github.com/littlejon/js-jest-mocks/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googlemaps/js-jest-mocks.git"
+    "url": "https://github.com/littlejon/js-jest-mocks.git"
   },
   "license": "Apache-2.0",
   "author": "Justin Poehnelt",
@@ -25,7 +25,7 @@
     "docs": "typedoc src/index.ts",
     "format": "eslint . --fix",
     "lint": "eslint .",
-    "prepare": "rm -rf dist && rollup -c",
+    "prepare": "rollup -c",
     "test": "jest src/*",
     "test:watch": "jest --watch src/*"
   },
@@ -47,7 +47,6 @@
     "typescript": "^4.7.4"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://wombat-dressing-room.appspot.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
